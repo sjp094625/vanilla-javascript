@@ -1,0 +1,88 @@
+body {
+    background-repeat: no-repeat;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+input {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: white;
+    opacity: 0.6;
+    font-size: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+#clock {
+    font-size: 80px;
+    margin-top: 0;
+}
+
+.login-form__input {
+    width: 250px;
+    padding: 15px;
+    border-bottom: 3px solid white;
+}
+
+.login-form__submit {
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.login-form__submit:hover {
+    background-color: white;
+    opacity: 0.6;
+    color: black;
+}
+
+.todo-form__input {
+    width: 350px;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#todo-list li {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#todo-list li button {
+    background-color: transparent;
+    border: none;
+    color: red;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#todo-list li button:hover {
+    color: #A50000;
+}
